@@ -31,7 +31,6 @@ body {
 
 nav {
   align-items: center;
-  padding: 0 2rem;
 }
 
 .welcome {
@@ -43,7 +42,7 @@ nav {
 .logo {
   height: 4rem;
   float: left;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .login {
@@ -303,14 +302,22 @@ h2 {
   font-weight: 600;
 }
 
-.welcome::before {
-  content: '';
-  border-left: 1rem black solid;
-  border-bottom: 1rem transparent solid;
-  border-top: 1rem transparent solid;
-  position: absolute;
-  top: 0.4rem;
-  left: -1.5rem;
+.btn-help {
+  background-color: rgba(138, 136, 136, 0.6);
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  padding: auto;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.tooltip-inner {
+  font-size: 1.75rem;
+  text-align: center;
+  display: inline;
+  background-color: rgba(45, 42, 46, 0.9);
+  color: white;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -318,6 +325,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
   }
   .logo {
     height: 5.25rem;
@@ -366,12 +374,40 @@ h2 {
   .operation {
     margin: 0;
   }
+  .welcome::before {
+    content: '';
+    border-left: 1rem black solid;
+    border-bottom: 1rem transparent solid;
+    border-top: 1rem transparent solid;
+    position: absolute;
+    top: 0.4rem;
+    left: -1.5rem;
+  }
+  .btn-help {
+    background-color: rgba(138, 136, 136, 0.6);
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: auto;
+    height: 3rem;
+    width: 3rem;
+  }
 }
 @media screen and (max-width: 767px) and (min-width: 569px) {
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
+  }
+  .welcome::before {
+    content: '';
+    border-left: 1rem black solid;
+    border-bottom: 1rem transparent solid;
+    border-top: 1rem transparent solid;
+    position: absolute;
+    top: 0.4rem;
+    left: -1.5rem;
   }
   .logo {
     height: 4rem;
@@ -406,12 +442,31 @@ h2 {
     font-size: 2.75rem;
     font-weight: 400;
   }
+  .btn-help {
+    background-color: rgba(138, 136, 136, 0.6);
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: auto;
+    height: 3rem;
+    width: 3rem;
+  }
 }
 @media screen and (min-width: 992px) {
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
+  }
+  .welcome::before {
+    content: '';
+    border-left: 1rem black solid;
+    border-bottom: 1rem transparent solid;
+    border-top: 1rem transparent solid;
+    position: absolute;
+    top: 0.4rem;
+    left: -1.5rem;
   }
   .logo {
     height: 5.25rem;
@@ -460,21 +515,13 @@ h2 {
   .operation {
     margin: 0;
   }
-}
-
-.btn-help {
-  background-color: rgba(138, 136, 136, 0.6);
-  border: none;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  padding: 0 1.25rem;
-  margin-left: 3rem;
-}
-
-.tooltip-inner {
-  font-size: 1.75rem;
-  text-align: center;
-  display: inline;
-  background-color: rgba(45, 42, 46, 0.9);
-  color: white;
+  .btn-help {
+    background-color: rgba(138, 136, 136, 0.6);
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding: auto;
+    height: 3rem;
+    width: 3rem;
+  }
 }
