@@ -461,3 +461,20 @@ h2 {
     margin: 0;
   }
 }
+
+.btn-help {
+  background-color: rgba(138, 136, 136, 0.6);
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0 1.25rem;
+  margin-left: 3rem;
+}
+
+.tooltip-inner {
+  font-size: 1.75rem;
+  text-align: center;
+  display: inline;
+  background-color: rgba(45, 42, 46, 0.9);
+  color: white;
+}

@@ -372,16 +372,6 @@ btnSort.addEventListener('click', function (e) {
   sorted = !sorted;
 });
 
-// Trash just to generate random date for movements
-// const randomInt = () =>
-//   Math.trunc(Math.random() * 1539872000000) + 586240000000;
-
-// const dates = mov => {
-//   const sortedTimeStamp = Array.from({ length: mov }, randomInt).sort(
-//     (a, b) => a - b
-//   );
-//   return sortedTimeStamp.map(date => new Date(date).toISOString());
-// };
-// labelWelcome.addEventListener('click', function () {
-//   console.log(dates(11));
-// });
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
