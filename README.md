@@ -16,6 +16,6 @@ Bankist is a banking website that allows users to perform various banking operat
 - CSS: Used for styling the website and making it visually appealing.
 - JavaScript: Used for implementing the interactive functionalities and handling the banking operations.
 
-### Check out the live demo of Bankist: [Demo Link](https://glittery-kataifi-973711.netlify.app/)
+### Check out the live demo of Bankist: [Demo Link](https://yagnikbankist.netlify.app/)
 
 Happy banking with Bankist!
